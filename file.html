@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASEEM — SE@NUST</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Goldman:wght@400;700&family=Megrim&family=Pixelify+Sans:wght@400..700&family=Rubik+Broken+Fax&family=Rubik+Doodle+Triangles&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pixelify+Sans:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&family=Rubik+Doodle+Triangles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--______________________________HEADER SECTION_________________________-->
+    <header>
+        <div id="cur-dot"></div>
+        <div id="cur-ring"></div>
+        <canvas id="starfield"></canvas>
+        <div class="grid-overlay"></div>
+        <div class="scanlines"></div>
+
+        <div class="status-bar">
+            <div class="status-dot"></div>
+            <span>SYSTEM ONLINE</span>
+            <span>|</span>
+            <span id="clock">00:00:00</span>
+        </div>
+
+        <nav id="navbar">
+            <a href="#hero" class="nav-logo"><-NsM-></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!--___________________________MAIN SECTION______________________________-->
+    <main>
+        <!--=============== (HERO SECTION) =================-->
+        <section id="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-bg-glow2"></div>
+            <div class="hero-content">
+                <div class="hero-badge"><div class="badge-dot"></div>AVAILABLE FOR INTERNSHIP — 2026</div>
+                <h1 class="hero-name" id="hero-name" aria-label="NASEEM"></h1>
+                <p class="hero-sub">SOFTWARE ENGINEER @ NUST ISLAMABAD</p>
+                <p class="hero-tagline"><em>Building systems that think,</em><br>tools that solve, and code that lasts.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-p">View Projects ⟶</a>
+                    <a href="#contact" class="btn-o">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-frame">
+                    <div class="avatar-holo">
+                        <img src="/Naseem By Gemini.jpeg" alt="Naseem" class="av-photo"/>
+                        <div class="av-overlay"></div>
+                        <div class="av-scan"></div>
+                        <svg class="circuit-svg" viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 60 L80 60 L80 120 L140 120" stroke="#00d4ff" stroke-width="1" fill="none"/>
+                            <circle cx="140" cy="120" r="3" fill="#00d4ff"/>
+                            <path d="M280 200 L220 200 L220 290 L160 290" stroke="#7c3aed" stroke-width="1" fill="none"/>
+                            <circle cx="160" cy="290" r="3" fill="#7c3aed"/>
+                            <path d="M40 330 L40 260 L120 260" stroke="#00d4ff" stroke-width="0.5" fill="none" opacity="0.4"/>
+                            <path d="M260 80 L260 155 L180 155" stroke="#a855f7" stroke-width="0.5" fill="none" opacity="0.4"/>
+                            <rect x="14" y="175" width="12" height="12" fill="none" stroke="#00ffea" stroke-width="1" transform="rotate(45 20 181)"/>
+                            <rect x="268" y="300" width="12" height="12" fill="none" stroke="#a855f7" stroke-width="1" transform="rotate(45 274 306)"/>
+                        </svg>
+                    </div>
+                    <div class="av-label">// IDENTITY VERIFIED</div>
+                    <div class="ft ft1">NUST.SE.Y2</div>
+                    <div class="ft ft2">GPA:2.98</div>
+                    <div class="ft ft3">Java.C++</div>
+                    <div class="ft ft4">2028.EXP</div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================ABOUT SECTION=====================-->
+        <section id="about">
+            <div class="sw">
+                <div class="sec-hdr reveal"><span class="sec-num">[ 01 ]</span><h2 class="sec-title">ABOUT</h2><div class="sec-line"></div></div>
+                <div class="about-grid">
+                    <div class="fp reveal">
+                        <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">naseem_profile.exe</span></div>
+                        <div class="about-text">
+                            <p>I'm <strong>Naseem</strong> — a second-year Software Engineering student at the National University of Sciences & Technology, Islamabad. I build things that work: parking systems, expense trackers, and whatever problem lands on my desk next.</p>
+                            <p>I think in algorithms, debug with patience, and write code I'm not embarrassed to show. I've volunteered with <strong>Al-Khidmat Foundation Pakistan</strong> — because the best engineers understand people, not just machines.</p>
+                            <p>Currently chasing finals, one data structure at a time.</p>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <div class="fp reveal">
+                            <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">metrics.sys</span></div>
+                            <div class="stat-body">
+                                <div><div class="sval">2<span class="hi">.</span>98</div><div class="slbl">CGPA</div><div class="sbar"></div></div>
+                                <div><div class="sval">20<span class="hi">28</span></div><div class="slbl">GRADUATION</div><div class="sbar"></div></div>
+                                <div><div class="sval">02<span class="hi">nd</span></div><div class="slbl">YEAR</div><div class="sbar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=================PROJECT SECTION==================-->
+        <section id="projects">
+            <div class="sw">
+                <div class="sec-hdr reveal"><span class="sec-num">[ 02 ]</span><h2 class="sec-title">PROJECTS</h2><div class="sec-line"></div></div>
+                <div class="proj-grid">
+                    <div class="fp reveal">
+                        <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">project_01.java</span></div>
+                        <div class="proj-body">
+                            <div class="proj-num">// PROJ-001</div>
+                            <div class="proj-name">Smart Parking<br>Management System</div>
+                            <p class="proj-desc">A role-based parking management application with admin control, user management, and a digital wallet for seamless payments. Architected with the Singleton pattern to ensure resource consistency across the system.</p>
+                            <div class="ptags"><span class="ptag">Java</span><span class="ptag">OOP</span><span class="ptag v">Singleton</span><span class="ptag">Role-Based</span><span class="ptag v">Digital Wallet</span></div>
+                            <a href="https://github.com/naseem-ustaaz" target="_blank" class="plink">View Source</a>
+                        </div>
+                    </div>
+                    <div class="fp reveal">
+                        <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">project_02.cpp</span></div>
+                        <div class="proj-body">
+                            <div class="proj-num">// PROJ-002</div>
+                            <div class="proj-name">Personal Expense<br>Tracker</div>
+                            <p class="proj-desc">A solo-built CLI application in C++ for tracking personal expenses. Category-wise breakdowns, persistent file storage, and clean data management. Built independently — every line accounted for.</p>
+                            <div class="ptags"><span class="ptag">C++</span><span class="ptag v">CLI</span><span class="ptag">Solo Project</span><span class="ptag">File I/O</span><span class="ptag v">Data Mgmt</span></div>
+                            <a href="https://github.com/naseem-ustaaz/Personal-Expense-Tracker" target="_blank" class="plink">View Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===============SKILL SECTION==================-->
+        <section id="skills">
+            <div class="sw">
+                <div class="sec-hdr reveal"><span class="sec-num">[ 03 ]</span><h2 class="sec-title">SKILLS</h2><div class="sec-line"></div></div>
+                <div class="skills-grid">
+                    <div class="fp reveal">
+                        <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">languages.cfg</span></div>
+                        <div class="sk-body"><div class="sk-cat">// LANGUAGES</div><div class="sk-items"><span class="si">Java</span><span class="si">C++</span><span class="si">Python</span><span class="si">C</span></div></div>
+                    </div>
+                    <div class="fp reveal">
+                        <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">cs_core.sys</span></div>
+                        <div class="sk-body"><div class="sk-cat">// CS FUNDAMENTALS</div><div class="sk-items"><span class="si">Algorithms</span><span class="si">OS Concepts</span><span class="si">Data Structures</span><span class="si">Numerical Methods</span><span class="si">SW Architecture</span></div></div>
+                    </div>
+                    <div class="fp reveal">
+                        <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">practices.env</span></div>
+                        <div class="sk-body"><div class="sk-cat">// CONCEPTS</div><div class="sk-items"><span class="si">OOP</span><span class="si">Design Patterns</span><span class="si">Git & GitHub</span><span class="si">UML</span><span class="si">Process Scheduling</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--================VOLUME SECTION=====================-->
+        <section id="vol">
+            <div class="sw">
+                <div class="sec-hdr reveal"><span class="sec-num">[ 04 ]</span><h2 class="sec-title">VOLUNTEERING</h2><div class="sec-line"></div></div>
+                <div class="fp reveal" style="max-width:700px;">
+                    <div class="ptbar"><div class="pdots"><div class="pd r"></div><div class="pd y"></div><div class="pd g"></div></div><span class="ptitle">service_record.log</span></div>
+                    <div class="vol-body">
+                        <div class="vol-icon">🤝</div>
+                        <div><div class="vol-org">Al-Khidmat Foundation Pakistan</div><div class="vol-role">Voluntary Social Service — Community Welfare & Humanitarian Aid</div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========================= (CONTACT SECTION) =======================-->
+        <section id="contact">
+            <div class="sw">
+                <div class="sec-hdr reveal"><span class="sec-num">[ 05 ]</span><h2 class="sec-title">CONTACT</h2><div class="sec-line"></div></div>
+                <div class="contact-grid">
+                    <div class="reveal">
+                        <p class="contact-hl">Open to <span>internships</span>,<br>collaborations, and<br>interesting problems.</p>
+                    </div>
+                    <div class="reveal">
+                        <a class="ci" href="https://github.com/Naseem-Ullahh" target="_blank"><span>GITHUB</span><span class="cv">Naseem-Ullahh</span><span class="ca">→</span></a>
+                        <a class="ci" href="mailto:naseemmcsnust@gmail.com"><span>EMAIL</span><span class="cv">naseemmcsnust@gmail.com</span><span class="ca">→</span></a>
+                        <a class="ci" href="https://www.linkedin.com/in/naseem-ullah-yousafzai/" target="_blank"><span>LINKEDIN</span><span class="cv">naseem-ullah-yousafzai</span><span class="ca">→</span></a>
+                        <a class="ci" href="tel:+923481789079"><span>Phone no: </span><span class="cv">+92 348 1789079</span><span class="ca">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>NASEEM — <span class="fa">NUST SE '28</span></span>
+        <span id="ftime">SYS:ONLINE</span>
+        <span>BUILT WITH PRECISION</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
