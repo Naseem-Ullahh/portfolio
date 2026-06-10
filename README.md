@@ -18,4 +18,4 @@ and scroll-reveal effects.
 - Contact
 
 ## Author
-Naseem Ullah — Software Engineering Student @ NUST Islamabad
+Naseem Ullah | Software Engineering Student @ MCS, NUST Rawalpindi
