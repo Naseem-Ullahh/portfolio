@@ -1,0 +1,18 @@
+<svg width="200" height="90" viewBox="0 0 200 90" xmlns="http://www.w3.org/2000/svg">
+  <polyline points="35,10 10,43 35,76" fill="none" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="137,10 162,43 137,76" fill="none" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="55" y="10" width="11" height="11" fill="#22D3EE"/>
+  <rect x="111" y="10" width="11" height="11" fill="#22D3EE"/>
+  <rect x="55" y="24" width="11" height="11" fill="#22D3EE"/>
+  <rect x="69" y="24" width="11" height="11" fill="#22D3EE"/>
+  <rect x="111" y="24" width="11" height="11" fill="#22D3EE"/>
+  <rect x="55" y="38" width="11" height="11" fill="#22D3EE"/>
+  <rect x="83" y="38" width="11" height="11" fill="#22D3EE"/>
+  <rect x="111" y="38" width="11" height="11" fill="#22D3EE"/>
+  <rect x="55" y="52" width="11" height="11" fill="#22D3EE"/>
+  <rect x="97" y="52" width="11" height="11" fill="#22D3EE"/>
+  <rect x="111" y="52" width="11" height="11" fill="#22D3EE"/>
+  <rect x="55" y="66" width="11" height="11" fill="#22D3EE"/>
+  <rect x="111" y="66" width="11" height="11" fill="#22D3EE"/>
+  <rect x="177" y="10" width="6" height="67" fill="#22D3EE"/>
+</svg>
