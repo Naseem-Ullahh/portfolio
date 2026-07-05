@@ -873,8 +873,17 @@
   
   /* --- RESPONSIVE --- */
   @media (max-width: 900px) {
-    #hero { flex-direction: column; padding: 100px 30px 60px; }
-    .hero-visual { display: none; }
+      #hero { flex-direction: column; padding: 100px 30px 60px; }
+      .hero-visual {
+        display: block;
+        width: min(82vw, 300px);
+        margin-top: 28px;
+      }
+      .avatar-frame {
+        width: 100%;
+        aspect-ratio: 300 / 380;
+        height: auto;
+      }
     .about-grid { grid-template-columns: 1fr; }
     .proj-grid { grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: 1fr 1fr; }
